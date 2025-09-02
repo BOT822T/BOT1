@@ -5,7 +5,8 @@ import pandas as pd
 app = Flask(__name__)
 
 # === Put your OneDrive direct download link here ===
-url = "https://corpgabrielindia-my.sharepoint.com/:x:/g/personal/vishal_bongirwar_gabriel_co_in/EWHZcPxk4pRJqnfGUl5TXHwBO7b81sI1P7EmeqGNFwuoaQ?e=DJsUaO&download=1"
+url = "https://docs.google.com/spreadsheets/d/1b1snHVRh6-PDPDJz_P3ba5ChvY6wvY34/export?format=xlsx"
+
 
 def load_stock():
     """Load latest stock data from OneDrive Excel file"""
@@ -57,3 +58,4 @@ def whatsapp_reply():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+
