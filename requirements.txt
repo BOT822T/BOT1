@@ -1,0 +1,5 @@
+Flask
+twilio
+pandas
+openpyxl
+gunicorn
